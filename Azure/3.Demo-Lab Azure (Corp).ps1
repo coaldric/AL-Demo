@@ -18,7 +18,7 @@ Update-AzConfig -DisplaySecretsWarning $false
 # Create the Azure Lab Sources Storage (will skip if already exists)
 # New-LabAzureLabSourcesStorage -LocationName "Central US"
 
-# Sync the lab sources to the Azure Storage Account, skip isos, not needed for azure
+# Sync the lab sources to the Azure Storage Account, skip isos, not needed for Hyper-V
 # Sync-LabAzureLabSources
 
 $labname = "D2BGCC" #the lab name contains invalid characters. Only A-Z, a-z and 0-9 are allowed.
